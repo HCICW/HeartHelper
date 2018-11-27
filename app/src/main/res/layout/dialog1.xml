@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:gravity="center_vertical"
+        android:hint="What have you eaten today?"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="What have you drunk today? "
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/e1"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="How many cigarettes have you smoked today?"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

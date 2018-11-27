@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Heart Helper</string>
+
+    <string name="A"> Your heart is healthy!</string>
+    <string name="B"> Your heart is sub-healthy!</string>
+    <string name="C"> Your heart is dangerous!</string>
+</resources>
